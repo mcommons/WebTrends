@@ -32,6 +32,27 @@ class WebTrends
   end
   
   #Methods for the Data Extraction API
+
+  # Optional params
+  # format
+  #     # JSON (default), Excel, or XML 
+  # period
+  #     # Time period of interest, expressed as year, month, day or trend length required) 
+  # start period
+  #     # The beginning time period of a custom date range (not compatible with trending) 
+  # end period
+  #     # The ending time period of a custom date range (not compatible with trending) 
+  # measures
+  #     # Measures to return
+  # search
+  #     # String within a dimension name; returns only rows containing that string 
+  # range
+  #     # Number of rows to return 
+  # totalsonly
+  #     # Set to true to return totals only (useful for populating dashboards) 
+  # suppress error codes
+  #     # Set to true if you don't want the service to return error codes
+
   def list_profiles
     # /profiles returns a list of profiles.
   end
@@ -56,6 +77,7 @@ class WebTrends
   def get_template_definition(profile_id, template_id)
     # /profiles/{Profile ID}/templates/{Template ID} returns the definition of the specified template and its associated report definitions.
   end
+
   
 private 
 
