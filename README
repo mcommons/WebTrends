@@ -1,0 +1,19 @@
+=== WebTrends Ruby Library
+ 
+- [Code on GitHub](http://github.com/mcommons/webtrends)
+ 
+=== Description
+ 
+Ruby client for the WebTrends data collection and data extraction APIs.
+ 
+Based on the API described at http://developer.webtrends.com
+ 
+ 
+=== Authors
+ 
+- [Benjamin Stein](mailto:ben@mobilecommons.com), [Mal McKay](mailto:mal@mobilecommons.com)
+ 
+=== License
+ 
+Copyright (c) 2009 Mobile Commons
+See MIT-LICENSE in this directory.
